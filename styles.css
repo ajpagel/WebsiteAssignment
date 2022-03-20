@@ -1,0 +1,75 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    background-color:#a1afaf;
+    height:100px;
+}
+header {
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-family: 'Market Felt', fantasy;
+	font-size: 45px;
+	margin-bottom: 30px;
+    background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+    width: 100%;
+	height: auto;
+}
+
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+h3, p {
+	font-family: 'Market Felt', fantasy;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    padding: 8 px;
+    text-align:left;
+    border-bottom: 1px solid black;
+}
+
+tr:hover{
+    background-color:gray;
+}
+
+ol{
+    text-align:left;
+}
+
+li {
+    display: list-item;
+    list-style-position: inside;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+a:hover{
+    background-color: honeydew;
+}
+
+a{
+    color:black;
+    padding: 25px;
+    background-color: rgb(143, 138, 109);
+    font-size:  20px;
+}
